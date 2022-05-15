@@ -10,6 +10,6 @@ namespace BlazingShop.Client.Service.CategoryService
     {
         public List<Category> Categories { get; set; }
 
-        void LoadCategories();
+        Task LoadCategories();
     }
 }
